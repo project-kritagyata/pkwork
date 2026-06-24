@@ -1,7 +1,6 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import IntroSplash from "./components/IntroSplash";
 import FloatingDonate from "./components/FloatingDonate";
-import CustomCursor from "./components/CustomCursor";
 import Home from "./pages/Home";
 import OurWork from "./pages/OurWork";
 import ProjectDetail from "./pages/ProjectDetail";
@@ -35,7 +34,6 @@ function Router() {
 function App() {
   return (
     <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-      <CustomCursor />
       <IntroSplash />
       <Router />
       <FloatingDonate />
