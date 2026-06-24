@@ -6,6 +6,7 @@ import OurWork from "./pages/OurWork";
 import ProjectDetail from "./pages/ProjectDetail";
 import Gallery from "./pages/Gallery";
 import JoinUs from "./pages/JoinUs";
+import Contact from "./pages/Contact";
 
 function NotFound() {
   return (
@@ -24,6 +25,7 @@ function Router() {
       <Route path="/project/:id" component={ProjectDetail} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/join-us" component={JoinUs} />
+      <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
   );

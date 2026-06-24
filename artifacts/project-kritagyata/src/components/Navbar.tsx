@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/", label: "Home", external: false },
   { href: "/our-work", label: "Our Work", external: false },
   { href: "/gallery", label: "Gallery", external: false },
+  { href: "/contact", label: "Contact", external: false },
   { href: VOLUNTEER_URL, label: "Join Us", external: true },
 ];
 

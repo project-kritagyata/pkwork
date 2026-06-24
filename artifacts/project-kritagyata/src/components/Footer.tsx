@@ -38,7 +38,7 @@ export default function Footer() {
               Explore
             </h4>
             <ul style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
-              {[{ href: "/", label: "Home" }, { href: "/our-work", label: "Our Work" }, { href: "/gallery", label: "Gallery" }].map(link => (
+              {[{ href: "/", label: "Home" }, { href: "/our-work", label: "Our Work" }, { href: "/gallery", label: "Gallery" }, { href: "/contact", label: "Contact" }].map(link => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
