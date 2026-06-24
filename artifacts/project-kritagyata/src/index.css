@@ -55,6 +55,11 @@ body {
   background: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('/cursor.png') 8 8, auto;
+}
+
+a, button, [role="button"], [style*="cursor: pointer"] {
+  cursor: url('/cursor.png') 8 8, pointer;
 }
 
 a {
