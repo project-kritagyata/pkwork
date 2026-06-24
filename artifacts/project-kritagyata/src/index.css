@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --maroon-darkest: hsl(345, 60%, 10%);
+  --maroon-dark: hsl(345, 60%, 14%);
+  --maroon-mid: hsl(345, 55%, 22%);
+  --maroon-light: hsl(345, 50%, 24%);
+  --maroon-hover: hsl(345, 40%, 22%);
+  --maroon-nav-hover: hsl(345, 40%, 20%);
+  --maroon-primary: hsl(345, 75%, 28%);
+  --maroon-primary-hover: hsl(345, 65%, 35%);
+  --maroon-story-hover: hsl(345, 65%, 38%);
+
+  --gold: hsl(37, 70%, 58%);
+  --gold-hover: hsl(37, 70%, 65%);
+  --gold-dark: hsl(37, 60%, 45%);
+  --gold-darker: hsl(37, 70%, 50%);
+  --gold-muted: hsl(37, 55%, 62%);
+  --gold-light: hsl(37, 60%, 65%);
+  --gold-lighter: hsl(37, 70%, 72%);
+  --gold-accent: hsl(37, 75%, 52%);
+  --gold-accent2: hsl(37, 80%, 62%);
+
+  --cream: hsl(36, 30%, 95%);
+  --cream-dark: hsl(36, 30%, 92%);
+  --cream-darker: hsl(36, 30%, 88%);
+  --cream-muted: hsl(36, 25%, 85%);
+  --cream-soft: hsl(36, 20%, 78%);
+  --cream-faint: hsl(36, 15%, 72%);
+  --cream-text: hsl(36, 15%, 65%);
+  --cream-bg: hsl(36, 25%, 96%);
+  --cream-bg-light: hsl(36, 30%, 97%);
+
+  --text-muted: hsl(345, 40%, 35%);
+  --border: hsl(36, 20%, 85%);
+  --card-bg: white;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #333;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
