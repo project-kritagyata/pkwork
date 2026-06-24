@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm --filter @workspace/project-kritagyata run build",
+  "outputDirectory": "artifacts/project-kritagyata/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
