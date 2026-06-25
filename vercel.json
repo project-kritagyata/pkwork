@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm --filter @workspace/project-kritagyata run build",
-  "outputDirectory": "artifacts/project-kritagyata/dist/public",
+  "outputDirectory": "artifacts/project-kritagyata/dist",
   "installCommand": "pnpm install",
   "framework": null,
   "rewrites": [
