@@ -1,7 +1,7 @@
 {
-  "buildCommand": "pnpm --filter @workspace/project-kritagyata run build && cp -r artifacts/project-kritagyata/dist/. dist/",
+  "buildCommand": "bash vercel-build.sh",
   "outputDirectory": "dist",
-  "installCommand": "pnpm install",
+  "installCommand": "echo 'install handled in build script'",
   "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
