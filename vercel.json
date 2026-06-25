@@ -1,7 +1,7 @@
 {
-  "buildCommand": "bash vercel-build.sh",
+  "buildCommand": "REPO=$(git rev-parse --show-toplevel) && cd \"$REPO\" && pnpm install --no-frozen-lockfile && cd artifacts/project-kritagyata && ./node_modules/.bin/vite build --config vite.config.ts && cd \"$REPO\" && mkdir -p dist && cp -r artifacts/project-kritagyata/dist/. dist/",
   "outputDirectory": "dist",
-  "installCommand": "echo 'install handled in build script'",
+  "installCommand": "echo 'install handled in build command'",
   "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
