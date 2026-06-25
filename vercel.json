@@ -1,7 +1,8 @@
 {
-  "buildCommand": "REPO=$(git rev-parse --show-toplevel) && cd \"$REPO\" && pnpm install --no-frozen-lockfile && cd artifacts/project-kritagyata && ./node_modules/.bin/vite build --config vite.config.ts && cd \"$REPO\" && mkdir -p dist && cp -r artifacts/project-kritagyata/dist/. dist/",
+  "rootDirectory": "artifacts/project-kritagyata",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "echo 'install handled in build command'",
+  "installCommand": "npm install --legacy-peer-deps",
   "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
